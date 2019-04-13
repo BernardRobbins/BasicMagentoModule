@@ -1,0 +1,25 @@
+{
+  "name": "mycompany/module-mymodule",
+  "description": "N/A",
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "magento/framework": "*"
+  },
+  "suggest": {
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MyCompany\\MyModule\\": ""
+    }
+  }
+}

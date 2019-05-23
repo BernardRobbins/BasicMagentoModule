@@ -1,5 +1,5 @@
 {
-  "name": "mycompany/module-mymodule",
+  "name": "bernardrobbins/basicmagentomodule",
   "description": "N/A",
   "config": {
     "sort-packages": true
@@ -19,7 +19,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "MyCompany\\MyModule\\": ""
+      "BernardRobbins\\BasicMagentoModule\\": ""
     }
   }
 }
